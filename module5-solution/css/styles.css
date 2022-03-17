@@ -1,0 +1,39 @@
+input {
+/*  font-size: 24px; */
+  margin-bottom: 10px;
+  color: black;
+  width: 33%;
+}
+
+button {
+  font-size: 20px;
+  background-color: #f6b319;
+  color: #3a552b;
+}
+
+button[disabled] {
+  background-color: #fdefce;
+  color: white;
+}
+
+.ng-touched.ng-valid {
+  border: 2px green solid;
+}
+
+.ng-touched.ng-invalid {
+  border: 2px red solid;
+}
+
+#info {
+  margin-top: 20px;
+}
+
+.panel {
+  /* for text on pannel */
+  /*margin-top: 27px !important;*/
+  background-color: inherit;
+}
+
+.panel-body {
+  padding-top: 30px !important;
+}
